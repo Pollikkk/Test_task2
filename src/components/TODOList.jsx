@@ -11,7 +11,6 @@ function TODOList({ todos, setTodos  }) {
       </ol>
     );
   }
-  export default TODOList;
 
   function Item({ item, todos, setTodos }) {
     const [editing, setEditing] = React.useState(false);//состояние редактирования
@@ -160,4 +159,7 @@ function TODOList({ todos, setTodos  }) {
       </li>
     );
   }
+
+  
+  export default TODOList;
   
